@@ -1,0 +1,90 @@
+    /*immagine di backgroung*/
+body {
+    background-image:url(background.jpg);
+    background-size: cover;
+}
+
+    /*sfondo testo*/
+.opacogrigio{
+    background-color: rgba(0,0,0,0.5);
+    border-radius:5px;
+    margin: auto;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+}
+
+    /*impostazioni logo*/
+img{
+    width: 100px;  
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /*sfondo riquadro dei buttons*/
+  .greenyellow{
+    background-color:rgb(54, 196, 11) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px; 
+    margin:1cm;
+}
+
+    /*definizione caratteristiche testo*/
+h3{
+    color: rgb(54, 196, 11);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h4{
+    color:whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+    /*caratteristiche lista*/
+ul{
+    list-style-type: square;
+    color:whitesmoke;  
+    margin-bottom: 10px;
+}
+
+   /*finte barre di caricamento*/
+.rettangolo{
+    width: 200px;
+    height: 20px;
+    border-radius: 5px;
+}
+
+.orange{
+    background-color: orange;
+}
+
+.green{
+    background-color: greenyellow;
+    width: 400px;
+}
+
+.red{
+    background-color: red;
+    width: 100px;
+}
+
+
+
+
+
